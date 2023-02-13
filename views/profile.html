@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Profile</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/profile.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="card">
+      <button type="button" id="logout">Log out</button>
+
+      <h1 class="name">Profile Information</h1>
+      <div class="form-container">
+        <form action="#">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="first-name" name="first-name" value="Anas Masa'deh" disabled>
+          <label for="nationality">Nationality</label>
+          <input type="text" id="last-name" name="last-name" value="Jordanian" disabled>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" value="anas@gmail.com" disabled>
+          <label for="number">Phone Number</label>
+          <input type="number" id="age" name="age" value="0797571585" disabled>
+          <button type="button" id="edit-button"onclick="enableEditing()">Edit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Categories and Products</title>
+  <link rel="stylesheet" type="text/css"  href="/assets/css/product.css">
+</head>
+<body>
+
+<table id="product-table">
+    <thead>
+      <tr>
+        <th>Name of Product</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Edit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Product 1</td>
+        <td>A description of product 1</td>
+        <td>$10.00</td>
+        <td><button class="edit-button">Edit</button></td>
+      </tr>
+      <tr>
+        <td>Product 2</td>
+        <td>A description of product 2</td>
+        <td>$20.00</td>
+        <td><button class="edit-button">Edit</button></td>
+      </tr>
+      <tr>
+        <td>Product 3</td>
+        <td>A description of product 3</td>
+        <td>$30.00</td>
+        <td><button class="edit-button">Edit</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <div id="edit-popup" class="popup">
+    <div class="popup-content">
+      <span class="close-button" >&times;</span>
+      <h2>Edit Product</h2>
+      <form>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input">
+        <br>
+        <label for="description-input">Description:</label>
+        <textarea id="description-input"></textarea>
+        <br>
+        <label for="price-input">Price:</label>
+        <input type="text" id="price-input">
+        <br>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </div>
+<script src="/assets/js/products.js"></script>
+  </body>
+  </html>
+  

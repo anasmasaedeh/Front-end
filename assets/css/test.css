@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+.login-box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #e08814;
+    box-shadow: 0px 0px 10px 0px #e08814;
+
+}
+input[type=text], input[type=password],select {
+    width: 100%;
+    padding: 12px 20px;
+    box-shadow: 0px 0px 10px 0px #e08814;
+    margin: 20px 0;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #e08814;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+button:hover {
+    opacity: 0.8;
+}
